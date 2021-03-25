@@ -21,6 +21,6 @@ This process can be modify to run once a week and just add the extra reviews and
 
 ### Include a description of how you would approach the problem differently under the following scenarios:
   
-  1. If the data was increased by 100x: I would include pyspark in the the Airflow operators.
-  2. If the pipelines were run on a daily basis by 7am: I would change all the pipeline to a lambda in AWS that can be triggered at any time. I can also put the trigger on the arrival of a file to S3
-  3. If the database needed to be accessed by 100+ people: I would create a real-time copy of the database and would connect it to a data visualization tool, such as metabase, periscope or tableu. In this way, you would not saturate the connections and queries to the productive database.
+  1. **If the data was increased by 100x:** I would include pyspark in the the Airflow operators.
+  2. **If the pipelines were run on a daily basis by 7am:** I would change all the pipeline to a lambda in AWS that can be triggered at any time. I can also put the trigger on the arrival of a file to S3
+  3. **If the database needed to be accessed by 100+ people:** I would create a real-time copy of the database and would connect it to a data visualization tool, such as metabase, periscope or tableu. In this way, you would not saturate the connections and queries to the productive database.
